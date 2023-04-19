@@ -12,7 +12,6 @@ main {
     grid-template-columns: auto minmax(auto, 610px); 
     grid-template-rows: auto 1fr; 
     grid-template-areas: "header image" "Content-main image"; 
-
 }
     
 .image-logo {
@@ -34,6 +33,12 @@ main {
     width: 100%;
     height: auto;
 }
+
+/* Código em manuteção para poder deixar a imagem no responsivo... */
+/* .image-picture .image-picture-content img {
+    width: 100%;
+    height: auto;
+} */
 
 .container-main {
     grid-area: Content-main;
@@ -66,6 +71,7 @@ main {
 
 .container-main .form {
     /* background-color: brown; */
+    position: relative;
     margin-top: 40px;
 }
 
@@ -75,6 +81,8 @@ main {
     border-radius: 28px;
     border: 1px solid var(--primary-color);
     padding-left: 32px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .container-main .form .form-control button {
@@ -83,4 +91,28 @@ main {
     border-radius: 28px;
     border: none;
     background-image: linear-gradient( 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+}
+
+.container-main .form .form-control button:active {
+    opacity: 0.5;
+}
+
+.error-icon {
+    display: none;
+    position: absolute;
+    top: 17px;
+    right: 116px;
+}
+
+.warning {
+    /* background-color: darkgray; */
+    color: var(--secundary-color);
+    margin: 4px 0 0 32px;
+    font-size: 13px;
+    font-weight: 400;
+    display: none;
 }
