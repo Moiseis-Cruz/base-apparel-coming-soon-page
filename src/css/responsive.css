@@ -1,0 +1,49 @@
+@media (max-width: 375px) {
+    main {
+        grid-template-columns: minmax(auto, 375px); 
+        grid-template-rows: repeat(3, auto); 
+        grid-template-areas: "header" "image" "Content-main"; 
+    }
+
+    .image-logo {
+        padding: 31px 32px;
+    }
+
+    .container-main {
+        width: 311px;
+        text-align: center;
+        /* margin-top: 64px; */
+        margin: 64px auto 92px;
+    }
+
+    .container-main .title {
+        font-size: 40px;
+    }
+
+    .container-main .description {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .container-main .form {
+        margin-top: 32px;
+    }
+
+    .container-main .form .form-control input {
+        height: 48px;
+        padding-left: 24px;
+        font-size: 14px;
+    }
+
+    .container-main .form .form-control button {
+        width: 64px;
+        height: 48px;
+    }
+
+    .error-icon {
+        display: none;
+        position: absolute;
+        top: 17px;
+        right: 116px;
+    }
+}
