@@ -3,7 +3,8 @@
 body {
     max-width: 1440px;
     min-height: 100vh;
-    background-image: linear-gradient( 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    /* background-image: linear-gradient( 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)); */
+    background-color: chocolate;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -15,18 +16,12 @@ main {
 }
     
 .image-logo {
-    /* background-color: cornflowerblue; */
     grid-area: header;
-    /* grid-column: 1 / 1; */
-    /* grid-row: 1 / 1; */
     padding: 65px 165px;
 }
 
 .image-picture {
     grid-area: image;
-    /* background-color: darkmagenta; */
-    /* grid-column: 2/ 2; */
-    /* grid-row: 1 / 2; */
 }
 
 .image-picture .image-picture-content {
@@ -35,17 +30,14 @@ main {
 }
 
 /* Código em manuteção para poder deixar a imagem no responsivo... */
-/* .image-picture .image-picture-content img {
+.image-picture .image-picture-content img {
     width: 100%;
     height: auto;
-} */
+}
 
 .container-main {
     grid-area: Content-main;
-    /* grid-column: 1 / 1; */
-    /* grid-row: 2 / 2; */
     width: 444px;
-    /* background-color: aquamarine; */
     margin: auto;
 }
 
@@ -62,7 +54,6 @@ main {
 }
 
 .container-main .description {
-    /* background-color: red; */
     font-size: 16px;
     font-weight: 400;
     color: var(--primary-color);
@@ -70,7 +61,6 @@ main {
 }
 
 .container-main .form {
-    /* background-color: brown; */
     position: relative;
     margin-top: 40px;
 }
@@ -109,7 +99,6 @@ main {
 }
 
 .warning {
-    /* background-color: darkgray; */
     color: var(--secundary-color);
     margin: 4px 0 0 32px;
     font-size: 13px;
