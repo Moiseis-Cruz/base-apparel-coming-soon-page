@@ -8,6 +8,11 @@
     .image-logo {
         padding: 31px 32px;
     }
+
+    .image-logo img {
+        width: 100px;
+        height: auto;
+    }
     
     .container-main {
         width: 311px;
