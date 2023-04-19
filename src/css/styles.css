@@ -3,11 +3,12 @@
 body {
     max-width: 1440px;
     height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 main {
     display: grid;
-    grid-template-columns: auto 610px; 
+    grid-template-columns: auto minmax(auto, 610px); 
     grid-template-rows: auto 1fr; 
     grid-template-areas: "header image" "Content-main image"; 
 
@@ -34,8 +35,27 @@ main {
 }
 
 .container-main {
-    background-color: brown;
     grid-area: Content-main;
     /* grid-column: 1 / 1; */
     /* grid-row: 2 / 2; */
+    width: 444px;
+}
+
+.container-main .title {
+    font-size: 64px;
+    font-weight: 300;
+    color: var(--primary-colo);
+    text-transform: uppercase;
+}
+
+.container-main .title span {
+    color: var(--neutral-color);
+    font-weight: 600;
+}
+
+.container-main .description {
+    /* background-color: red; */
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-colo);
 }
