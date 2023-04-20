@@ -75,6 +75,10 @@ main {
     font-size: 16px;
 }
 
+input::placeholder {
+    color: var(--primary-color);
+}
+
 .container-main .form .form-control button {
     width: 100px;
     height: 56px;
@@ -110,6 +114,10 @@ main {
 
 .container-main .form .form-control.invalid input {
     border: 1px solid var(--secundary-color);
+}
+
+.container-main .form .form-control.invalid .error-icon {
+    display: block;
 }
 
 .container-main .form .form-control.invalid .warning{
