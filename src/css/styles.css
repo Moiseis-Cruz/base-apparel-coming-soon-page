@@ -109,11 +109,9 @@ main {
 /* Validação do e-mail */
 
 .container-main .form .form-control.invalid input {
-    /* background-color: brown; */
     border: 1px solid var(--secundary-color);
 }
 
 .container-main .form .form-control.invalid .warning{
-    /* background-color: aquamarine; */
     display: block;
 }
