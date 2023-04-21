@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
     body {
-        background-color: blueviolet;
         width: 375px;
         margin: 0 auto;
     }
@@ -52,9 +51,12 @@
     }
 
     .error-icon {
-        display: none;
-        position: absolute;
-        top: 17px;
-        right: 116px;
+        top: 13px;
+        right: 72px;
+    }
+
+    .warning {
+        margin: 8px 0 0 25px;
+        text-align: left;
     }
 }
