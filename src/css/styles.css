@@ -37,7 +37,8 @@ main {
 .container-main {
     grid-area: Content-main;
     width: 444px;
-    margin: auto;
+    height: 368px;
+    margin: 61px auto 0;
 }
 
 .container-main .title {

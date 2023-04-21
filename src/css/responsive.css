@@ -22,6 +22,7 @@
     
     .container-main {
         width: 311px;
+        height: auto;
         text-align: center;
         margin: 64px auto 92px;
     }
