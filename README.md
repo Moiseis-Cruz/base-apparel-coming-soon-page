@@ -7,4 +7,4 @@ Descobri que atravez do ```display: grid; ``` posso usar outras própriedades. A
 - CSS;
 - JavaScript;
 
-<img src="" alt="Gif do Base Apparel">
+<img src="./src/images/base-apparel.gif" alt="Gif do Base Apparel">
