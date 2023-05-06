@@ -26,8 +26,8 @@ form.addEventListener("submit", function(e) {
     let emailValue = email.value.trim()
     
     if(emailValue === ""){
-        formControl.classList.remove("enabled")
-        //formControl.classList.add("invalid")
+        //formControl.classList.remove("enabled")
+        formControl.classList.add("invalid")
     }else{
         formControl.classList.remove("invalid")
         //formControl.classList.add("enabled")
