@@ -59,12 +59,12 @@ main {
     margin-top: 32px;
 }
 
-.container-main .form {
+.container-main #form {
     position: relative;
     margin-top: 40px;
 }
 
-.container-main .form .form-control input {
+.container-main #form .form-control input {
     width: 100%;
     height: 56px;
     border-radius: 28px;
@@ -78,7 +78,7 @@ input::placeholder {
     color: var(--primary-color);
 }
 
-.container-main .form .form-control button {
+.container-main #form .form-control button {
     width: 100px;
     height: 56px;
     border-radius: 28px;
@@ -91,7 +91,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-.container-main .form .form-control button:active {
+.container-main #form .form-control button:active {
     opacity: 0.5;
 }
 
@@ -112,14 +112,18 @@ input::placeholder {
 
 /* Validação do e-mail */
 
-.container-main .form .form-control.invalid input {
+.container-main #form .form-control.invalid input {
     border: 1px solid var(--secundary-color);
 }
 
-.container-main .form .form-control.invalid .error-icon {
+.container-main #form .form-control.invalid .error-icon {
     display: block;
 }
 
-.container-main .form .form-control.invalid .warning{
+.container-main #form .form-control.invalid .warning{
     display: block;
 }
+/* 
+.container-main #form .form-control.enabled input {
+    border: 1px solid lime;
+} */
