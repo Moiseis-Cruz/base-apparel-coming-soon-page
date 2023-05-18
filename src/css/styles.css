@@ -46,11 +46,13 @@ main {
     color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 17px;
+    line-height: 64px;
 }
 
 .container-main .title span {
     color: var(--neutral-color);
     font-weight: 600;
+    line-height: 71px;
 }
 
 .container-main .description {
