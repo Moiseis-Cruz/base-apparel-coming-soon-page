@@ -43,8 +43,9 @@ main {
 .container-main .title {
     font-size: 64px;
     font-weight: 300;
-    color: var(--primary-colo);
+    color: var(--primary-color);
     text-transform: uppercase;
+    letter-spacing: 17px;
 }
 
 .container-main .title span {
@@ -123,7 +124,7 @@ input::placeholder {
 .container-main #form .form-control.invalid .warning{
     display: block;
 }
-/* 
-.container-main #form .form-control.enabled input {
+
+/* .container-main #form .form-control.enabled input {
     border: 1px solid lime;
 } */
